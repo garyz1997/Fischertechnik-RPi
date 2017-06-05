@@ -7,7 +7,7 @@ import RPi.GPIO as GPIO
 import time
 import network
 
-SWITCH = 10
+SWITCH = 19
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(SWITCH, GPIO.IN)
 
