@@ -10,7 +10,7 @@ import network
 
 SERVER_IP = sys.argv[1]
 print(SERVER_IP)
-LED = 32
+LED = 22
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(LED, GPIO.OUT)
 gotResponse = False
